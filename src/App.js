@@ -1,26 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Container, Icon, Header, Accordion, Loader } from 'semantic-ui-react';
 
-function App() {
+import { useActiveIndex } from './hooks/useActiveIndex';
+import { useDiary } from './hooks/useDiary';
+import Day from './components/day';
+import FormModal from './components/formModal';
+
+const App = () => {
+  const [active, setActive] = useActiveIndex();
+  const store = useDiary();
+
+  if (store.loading) {
+    return <Loader active />;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <FormModal store={store} />
+      <Header as="h1">Food Diary</Header>
+      <Accordion styled fluid>
+        {store.diary.map(([day, data]) => (
+          <React.Fragment key={day}>
+            <Accordion.Title
+              active={active === day}
+              index={day}
+              onClick={setActive}
+            >
+              <Icon name="dropdown" />
+              {data.title}
+            </Accordion.Title>
+            <Accordion.Content active={active === day}>
+              <Day data={data} store={store} />
+            </Accordion.Content>
+          </React.Fragment>
+        ))}
+      </Accordion>
+    </Container>
   );
-}
+};
 
 export default App;

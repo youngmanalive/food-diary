@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import 'semantic-ui-css/semantic.min.css';
+import "react-datepicker/dist/react-datepicker.css";
+
+import App from './app';
+import './styles/styles.css';
+import * as serviceWorker from './util/serviceWorker';
+
+const rootElement = document.getElementById('root');
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  rootElement
 );
 
 // If you want your app to work offline and load faster, you can change

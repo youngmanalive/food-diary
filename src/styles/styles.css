@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  padding: 1rem 0;
+}
+
+.accordion .title {
+  position: relative;
+}
+
+.entryControls {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
