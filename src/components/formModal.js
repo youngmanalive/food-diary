@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button, Form } from 'semantic-ui-react';
 import DatePicker from 'react-datepicker';
 
-import { TYPE } from '../constants';
+import { MEAL_TYPES, NOON } from '../constants';
 
-const options = Object.keys(TYPE).map(type => ({ text: type, value: type }));
+const options = MEAL_TYPES.map(type => ({ text: type, value: type }));
 
 const defaultForm = () => ({
   type: '',
   description: '',
-  date: Date.now(),
+  date: NOON,
 });
 
 const FormModal = ({ store }) => {

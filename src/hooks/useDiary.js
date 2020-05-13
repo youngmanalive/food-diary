@@ -21,7 +21,7 @@ export const useDiary = () => {
 
   const diary = useMemo(() => {
     const diaryEntries = Object.entries(createDiary(entries));
-    return diaryEntries.sort(([a], [b]) => a.localeCompare(b));
+    return diaryEntries.sort(([a], [b]) => b.localeCompare(a));
   }, [entries]);
 
   const formEntry = editId
