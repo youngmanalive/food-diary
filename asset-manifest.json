@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/food-diary/static/css/main.f5423d04.chunk.css",
-    "main.js": "/food-diary/static/js/main.a613708b.chunk.js",
+    "main.js": "/food-diary/static/js/main.1bb7cc7f.chunk.js",
     "runtime-main.js": "/food-diary/static/js/runtime-main.e25fbbb8.js",
     "static/css/2.54e224c5.chunk.css": "/food-diary/static/css/2.54e224c5.chunk.css",
-    "static/js/2.83bf84e6.chunk.js": "/food-diary/static/js/2.83bf84e6.chunk.js",
+    "static/js/2.4b3f56ef.chunk.js": "/food-diary/static/js/2.4b3f56ef.chunk.js",
     "index.html": "/food-diary/index.html",
-    "precache-manifest.25b235bca0231431612b48960143bd60.js": "/food-diary/precache-manifest.25b235bca0231431612b48960143bd60.js",
+    "precache-manifest.feed100babaa09e49454408921d01fca.js": "/food-diary/precache-manifest.feed100babaa09e49454408921d01fca.js",
     "service-worker.js": "/food-diary/service-worker.js",
-    "static/js/2.83bf84e6.chunk.js.LICENSE.txt": "/food-diary/static/js/2.83bf84e6.chunk.js.LICENSE.txt",
+    "static/js/2.4b3f56ef.chunk.js.LICENSE.txt": "/food-diary/static/js/2.4b3f56ef.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/food-diary/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.e25fbbb8.js",
     "static/css/2.54e224c5.chunk.css",
-    "static/js/2.83bf84e6.chunk.js",
+    "static/js/2.4b3f56ef.chunk.js",
     "static/css/main.f5423d04.chunk.css",
-    "static/js/main.a613708b.chunk.js"
+    "static/js/main.1bb7cc7f.chunk.js"
   ]
 }

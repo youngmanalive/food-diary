@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0210a27f6eaf11735e56bb7d1e076c5",
+    "revision": "6b138623b22f0e9a7c2b0166b0abc891",
     "url": "/food-diary/index.html"
   },
   {
-    "revision": "c31879b18d8b3cc77e20",
+    "revision": "2ee76ee0217f0c856535",
     "url": "/food-diary/static/css/2.54e224c5.chunk.css"
   },
   {
-    "revision": "a083cbcbaef0571f9d4c",
+    "revision": "992acd4cda42afaa6a43",
     "url": "/food-diary/static/css/main.f5423d04.chunk.css"
   },
   {
-    "revision": "c31879b18d8b3cc77e20",
-    "url": "/food-diary/static/js/2.83bf84e6.chunk.js"
+    "revision": "2ee76ee0217f0c856535",
+    "url": "/food-diary/static/js/2.4b3f56ef.chunk.js"
   },
   {
     "revision": "2089965cc3e0fbb1dda2d650d8277df4",
-    "url": "/food-diary/static/js/2.83bf84e6.chunk.js.LICENSE.txt"
+    "url": "/food-diary/static/js/2.4b3f56ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a083cbcbaef0571f9d4c",
-    "url": "/food-diary/static/js/main.a613708b.chunk.js"
+    "revision": "992acd4cda42afaa6a43",
+    "url": "/food-diary/static/js/main.1bb7cc7f.chunk.js"
   },
   {
     "revision": "4f3a2324aaeb4bdbd7cd",
