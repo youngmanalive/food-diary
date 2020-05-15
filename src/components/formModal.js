@@ -27,7 +27,7 @@ const FormModal = ({ store }) => {
   };
 
   const onDateChange = date => {
-    onChange(null, { value: date, name: 'date' });
+    onChange(null, { value: date.valueOf(), name: 'date' });
   };
 
   const onSubmit = () => {
